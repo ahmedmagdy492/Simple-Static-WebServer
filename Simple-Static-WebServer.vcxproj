@@ -129,6 +129,10 @@
   <ItemGroup>
     <ClCompile Include="src\Main.c" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\headers\Config-Reader.h" />
+    <ClInclude Include="src\headers\Constants.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

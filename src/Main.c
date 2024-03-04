@@ -1,7 +1,12 @@
 #include <stdio.h>
 
+#include "headers/Config-Reader.h"
+#include "headers/Constants.h"
+
+
 int main(void) {
-	printf("Hello World\n");
+	
+	ConfigObject cfg = ReadConfig(CONFIG_PATH);
 
 	return 0;
 }
